@@ -42,7 +42,7 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: My first app
+        application_name: My%20first%20app
         environment_name: Myfirstapp-env
         version_label: 2023
         region: "us-east-2"
