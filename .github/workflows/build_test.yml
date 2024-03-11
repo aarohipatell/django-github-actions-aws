@@ -42,8 +42,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: My%20first%20app
-        environment_name: Myfirstapp-env
+        application_name: Demo
+        environment_name: Demo-env
         version_label: 2023
         region: "us-east-2"
         deployment_package: deploy.zip
